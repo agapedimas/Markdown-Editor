@@ -1,6 +1,6 @@
 //
 //  MPAsset.h
-//  MacDown 3000
+//  Markdown Editor
 //
 //  Created by Tzu-ping Chung  on 29/6.
 //  Copyright (c) 2014 Tzu-ping Chung . All rights reserved.

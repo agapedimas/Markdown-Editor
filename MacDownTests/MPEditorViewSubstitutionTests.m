@@ -1,6 +1,6 @@
 //
 //  MPEditorViewSubstitutionTests.m
-//  MacDown 3000
+//  Markdown Editor
 //
 //  Tests for Issue #263: NSTextView substitution property getter overrides.
 //  Verifies that MPEditorView getters return values from NSUserDefaults

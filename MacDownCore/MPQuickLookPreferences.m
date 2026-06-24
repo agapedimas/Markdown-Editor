@@ -2,7 +2,7 @@
 //  MPQuickLookPreferences.m
 //  MacDownCore
 //
-//  Quick Look preferences reader for MacDown 3000 (Issue #284)
+//  Quick Look preferences reader for Markdown Editor (Issue #284)
 //  Copyright (c) 2025 Tzu-ping Chung. All rights reserved.
 //
 

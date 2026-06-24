@@ -1,6 +1,6 @@
 //
 //  MPResourceWatcherSet.h
-//  MacDown 3000
+//  Markdown Editor
 //
 //  Manages a set of file watchers for local resources referenced in HTML.
 //  Related to GitHub issue #110.

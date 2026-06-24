@@ -1,6 +1,6 @@
 //
 //  MPQuickLookPreferencesTests.m
-//  MacDown 3000
+//  Markdown Editor
 //
 //  Tests for Quick Look preferences reader (Issue #284)
 //  Copyright (c) 2025 Tzu-ping Chung. All rights reserved.

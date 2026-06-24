@@ -8,7 +8,7 @@
 "1gz-YB-DZE.title" = "Helskärmsläge";
 
 /* Class = "NSMenuItem"; title = "MacDown"; ObjectID = "1Xt-HY-uBw"; */
-"1Xt-HY-uBw.title" = "MacDown 3000";
+"1Xt-HY-uBw.title" = "Markdown Editor";
 
 /* Class = "NSMenu"; title = "Spelling"; ObjectID = "3IN-sU-3Bg"; */
 "3IN-sU-3Bg.title" = "Stavning";
@@ -20,10 +20,10 @@
 "4EN-yA-p0u.title" = "Sök";
 
 /* Class = "NSMenuItem"; title = "Quit MacDown"; ObjectID = "4sb-4s-VLi"; */
-"4sb-4s-VLi.title" = "Avsluta MacDown 3000";
+"4sb-4s-VLi.title" = "Avsluta Markdown Editor";
 
 /* Class = "NSMenuItem"; title = "About MacDown"; ObjectID = "5kV-Vb-QxS"; */
-"5kV-Vb-QxS.title" = "Om MacDown 3000";
+"5kV-Vb-QxS.title" = "Om Markdown Editor";
 
 /* Class = "NSMenuItem"; title = "Export"; ObjectID = "5mp-ev-1el"; */
 "5mp-ev-1el.title" = "Exportera";
@@ -147,7 +147,7 @@
 "oas-Oc-fiZ.title" = "Öppna senaste";
 
 /* Class = "NSMenuItem"; title = "Hide MacDown"; ObjectID = "Olw-nP-bQN"; */
-"Olw-nP-bQN.title" = "Göm MacDown 3000";
+"Olw-nP-bQN.title" = "Göm Markdown Editor";
 
 /* Class = "NSMenuItem"; title = "Find Previous"; ObjectID = "OwM-mh-QMV"; */
 "OwM-mh-QMV.title" = "Sök föregående";
@@ -186,10 +186,10 @@
 "UEZ-Bs-lqG.title" = "Börja med stor bokstav";
 
 /* Class = "NSMenuItem"; title = "MacDown Help"; ObjectID = "ugx-EN-xKu"; */
-"ugx-EN-xKu.title" = "MacDown 3000 hjälp";
+"ugx-EN-xKu.title" = "Markdown Editor hjälp";
 
 /* Class = "NSMenu"; title = "MacDown"; ObjectID = "uQy-DD-JDr"; */
-"uQy-DD-JDr.title" = "MacDown 3000";
+"uQy-DD-JDr.title" = "Markdown Editor";
 
 /* Class = "NSMenuItem"; title = "Cut"; ObjectID = "uRl-iY-unG"; */
 "uRl-iY-unG.title" = "Klipp ut";

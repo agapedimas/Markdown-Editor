@@ -1,6 +1,6 @@
 //
 //  MPRendererTestHelpers.m
-//  MacDown 3000
+//  Markdown Editor
 //
 //  Shared test helpers for MPRenderer tests
 //  Copyright (c) 2025 Tzu-ping Chung. All rights reserved.

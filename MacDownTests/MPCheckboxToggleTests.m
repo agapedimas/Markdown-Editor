@@ -1,6 +1,6 @@
 //
 //  MPCheckboxToggleTests.m
-//  MacDown 3000
+//  Markdown Editor
 //
 //  Tests for checkbox toggle functionality (Issue #269).
 //  These tests verify the source text manipulation when toggling checkboxes.

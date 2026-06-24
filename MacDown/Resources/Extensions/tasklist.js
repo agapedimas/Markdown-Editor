@@ -1,5 +1,5 @@
 /**
- * Interactive Task List Support for MacDown 3000
+ * Interactive Task List Support for Markdown Editor
  *
  * Enables clicking checkboxes in the preview to toggle their state
  * in the source document.

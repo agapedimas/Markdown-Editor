@@ -1,6 +1,6 @@
 //
 //  MPHTMLExportTests.m
-//  MacDown 3000
+//  Markdown Editor
 //
 //  Tests for issue #30: Fix line breaking in HTML exports
 //  Verifies that export.css provides proper word-breaking for paragraphs

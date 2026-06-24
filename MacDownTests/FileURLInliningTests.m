@@ -1,6 +1,6 @@
 //
 //  FileURLInliningTests.m
-//  MacDown 3000
+//  Markdown Editor
 //
 //  Unit tests for FileURLInlining MIME type computation for file paths.
 //  Copyright (c) 2026 wltb. All rights reserved.

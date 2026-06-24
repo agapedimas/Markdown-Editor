@@ -54,7 +54,7 @@ ls -la
 
 ```json
 {
-    "name": "MacDown 3000",
+    "name": "Markdown Editor",
     "version": "3000.0.4",
     "features": ["markdown", "preview", "quicklook"]
 }

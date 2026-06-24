@@ -1,6 +1,6 @@
 //
 //  MPHTMLResourceURLs.h
-//  MacDown 3000
+//  Markdown Editor
 //
 //  Utility functions for extracting and cache-busting local resource
 //  URLs in rendered HTML.

@@ -4,18 +4,6 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
-	<key>CFBundleURLTypes</key>
-	<array>
-		<dict>
-			<key>CFBundleURLName</key>
-			<string>MacDown 3000 custom control</string>
-			<key>CFBundleURLSchemes</key>
-			<array>
-				<string>x-macdown</string>
-			</array>
-		</dict>
-	</array>
-
 	<key>CFBundleDocumentTypes</key>
 	<array>
 		<dict>
@@ -34,6 +22,8 @@
 			<string>Markdown</string>
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
+			<key>LSHandlerRank</key>
+			<string>Default</string>
 			<key>LSItemContentTypes</key>
 			<array>
 				<string>net.daringfireball.markdown</string>
@@ -42,8 +32,6 @@
 			<integer>0</integer>
 			<key>NSDocumentClass</key>
 			<string>MPDocument</string>
-			<key>LSHandlerRank</key>
-			<string>Default</string>
 		</dict>
 		<dict>
 			<key>CFBundleTypeExtensions</key>
@@ -94,6 +82,17 @@
 	<string>$(MARKETING_VERSION)</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>Markdown Editor custom control</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>x-macdown</string>
+			</array>
+		</dict>
+	</array>
 	<key>CFBundleVersion</key>
 	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>LSApplicationCategoryType</key>
@@ -124,29 +123,21 @@
 	</dict>
 	<key>NSAppleScriptEnabled</key>
 	<true/>
+	<key>NSDesktopFolderUsageDescription</key>
+	<string>Markdown Editor needs access to your Desktop to track recently opened files.</string>
+	<key>NSDocumentsFolderUsageDescription</key>
+	<string>Markdown Editor needs access to your Documents folder to track recently opened files.</string>
+	<key>NSDownloadsFolderUsageDescription</key>
+	<string>Markdown Editor needs access to your Downloads folder to track recently opened files.</string>
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2014–2020 Tzu-ping Chung.
 Copyright © 2025 Schuyler Erle.</string>
-	<key>NSDesktopFolderUsageDescription</key>
-	<string>MacDown 3000 needs access to your Desktop to track recently opened files.</string>
-	<key>NSDocumentsFolderUsageDescription</key>
-	<string>MacDown 3000 needs access to your Documents folder to track recently opened files.</string>
-	<key>NSDownloadsFolderUsageDescription</key>
-	<string>MacDown 3000 needs access to your Downloads folder to track recently opened files.</string>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
 	<key>OSAScriptingDefinition</key>
 	<string>MacDown.sdef</string>
-	<!-- Temporarily disabled - will upgrade Sparkle to 2.8.1 later
-	<key>SUBetaFeedURL</key>
-	<string>https://macdown.app/sparkle/macdown3000/testing/appcast.xml</string>
-	<key>SUFeedURL</key>
-	<string>https://macdown.app/sparkle/macdown3000/stable/appcast.xml</string>
-	<key>SUPublicDSAKeyFile</key>
-	<string>dsa_pub.pem</string>
-	-->
 	<key>UTExportedTypeDeclarations</key>
 	<array>
 		<dict>

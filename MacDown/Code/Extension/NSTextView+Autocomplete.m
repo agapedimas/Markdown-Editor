@@ -1,6 +1,6 @@
 //
 //  NSTextView+Autocomplete.m
-//  MacDown 3000
+//  Markdown Editor
 //
 //  Created by Tzu-ping Chung  on 11/06/2014.
 //  Copyright (c) 2014 Tzu-ping Chung . All rights reserved.

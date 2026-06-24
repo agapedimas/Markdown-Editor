@@ -1,18 +1,18 @@
-# MacDown 3000
+# Markdown Editor
 
-![MacDown 3000 logo](Images/logo-160.png)
+![Markdown Editor logo](Images/logo-160.png)
 
-Hello there! I'm **MacDown 3000**, the open source Markdown editor for macOS.
+Hello there! I'm **Markdown Editor**, the open source Markdown editor for macOS.
 
 Let me introduce myself.
 
-## Making MacDown 3000 Your Default Markdown Editor
+## Making Markdown Editor Your Default Markdown Editor
 
-MacDown 3000 is now available to open your Markdown files! To make me your default editor for `.md` files:
+Markdown Editor is now available to open your Markdown files! To make me your default editor for `.md` files:
 
 1. In Finder, right-click any `.md` file
 2. Choose **Get Info** (or press ⌘I)
-3. Under **"Open with:"**, select MacDown 3000
+3. Under **"Open with:"**, select Markdown Editor
 4. Click **"Change All..."**
 
 You can also find me in the **"Open With"** menu whenever you right-click a `.md` file.
@@ -21,7 +21,7 @@ You can also find me in the **"Open With"** menu whenever you right-click a `.md
 
 **Markdown** is a plain text formatting syntax created by John Gruber, aiming to provide an easy-to-read and feasible markup. The original Markdown syntax specification can be found [on Daring Fireball](https://daringfireball.net/projects/markdown/syntax).
 
-**MacDown 3000** is created as a simple-to-use editor for Markdown documents. I render your Markdown contents real-time into HTML, and display them in a preview panel.
+**Markdown Editor** is created as a simple-to-use editor for Markdown documents. I render your Markdown contents real-time into HTML, and display them in a preview panel.
 
 ![MacDown Screenshot](Images/screenshot.png)
 
@@ -89,8 +89,8 @@ Just put angle brackets around an email and it becomes clickable: <hello@macdown
 Same thing with urls: <https://macdown.app>
 ` <https://macdown.app>`
 
-Perhaps you want to link some text like this: [MacDown 3000 Website](https://macdown.app "Title")
-`[MacDown 3000 Website](https://macdown.app "Title")` (The title is optional)
+Perhaps you want to link some text like this: [Markdown Editor Website](https://macdown.app "Title")
+`[Markdown Editor Website](https://macdown.app "Title")` (The title is optional)
 
 #### Reference style
 
@@ -360,7 +360,7 @@ I offer auto-completion and other functions to ease your editing experience. If 
 
 ## Hidden preference
 
-You can see the HTML behind a preview by enabling the macOS built-in WebKit developer tools for MacDown 3000 in a terminal window:
+You can see the HTML behind a preview by enabling the macOS built-in WebKit developer tools for Markdown Editor in a terminal window:
 
 ```bash
 defaults write app.macdown.macdown3000 WebKitDeveloperExtras -bool true

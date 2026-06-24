@@ -2,7 +2,7 @@
 //  MPQuickLookRenderer.m
 //  MacDownCore
 //
-//  Quick Look renderer facade for MacDown 3000 (Issue #284)
+//  Quick Look renderer facade for Markdown Editor (Issue #284)
 //  Copyright (c) 2025 Tzu-ping Chung. All rights reserved.
 //
 
@@ -76,7 +76,7 @@ NS_INLINE NSString *MPStylePathForName(NSString *name)
     NSArray *paths = NSSearchPathForDirectoriesInDomains(
         NSApplicationSupportDirectory, NSUserDomainMask, YES);
     if (paths.count > 0) {
-        NSString *appSupportPath = [paths[0] stringByAppendingPathComponent:@"MacDown 3000/Styles"];
+        NSString *appSupportPath = [paths[0] stringByAppendingPathComponent:@"Markdown Editor/Styles"];
         NSString *stylePath = [appSupportPath stringByAppendingPathComponent:name];
         if ([[NSFileManager defaultManager] fileExistsAtPath:stylePath]) {
             return stylePath;
@@ -112,7 +112,7 @@ NS_INLINE NSURL *MPHighlightingThemeURLForName(NSString *name)
     if (paths.count > 0) {
         NSString *userThemePath = [paths[0]
             stringByAppendingPathComponent:
-                [@"MacDown 3000" stringByAppendingPathComponent:
+                [@"Markdown Editor" stringByAppendingPathComponent:
                     [kMPPrismThemeDirectory stringByAppendingPathComponent:
                         fileName]]];
         if ([manager fileExistsAtPath:userThemePath]) {

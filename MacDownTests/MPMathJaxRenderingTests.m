@@ -1,6 +1,6 @@
 //
 //  MPMathJaxRenderingTests.m
-//  MacDown 3000
+//  Markdown Editor
 //
 //  Created for Issue #58 - Phase 1: Markdown Rendering Tests
 //  Copyright (c) 2025 Tzu-ping Chung. All rights reserved.

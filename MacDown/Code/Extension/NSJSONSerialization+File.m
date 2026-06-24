@@ -1,6 +1,6 @@
 //
 //  NSJSONSerialization+File.m
-//  MacDown 3000
+//  Markdown Editor
 //
 //  Created by Tzu-ping Chung on 15/3.
 //  Copyright (c) 2015 Tzu-ping Chung . All rights reserved.

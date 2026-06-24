@@ -1,6 +1,6 @@
 //
 //  MPMainController.m
-//  MacDown 3000
+//  Markdown Editor
 //
 //  Created by Tzu-ping Chung  on 7/06/2014.
 //  Copyright (c) 2014 Tzu-ping Chung . All rights reserved.
@@ -112,6 +112,11 @@ NS_INLINE void treat()
         setEventHandler:self
             andSelector:@selector(openUrlSchemeAppleEvent:withReplyEvent:)
           forEventClass:kInternetEventClass andEventID:kAEGetURL];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(windowDidCloseCheck:)
+                                                 name:NSWindowWillCloseNotification
+                                               object:nil];
 }
 
 // Open a file from a browser with url of the form :
@@ -250,11 +255,35 @@ NS_INLINE void treat()
 
 - (void)applicationDidBecomeActive:(NSNotification *)notification
 {
+    [NSApp setActivationPolicy:NSApplicationActivationPolicyRegular];
     [self openPendingPipedContent];
     [self openPendingFiles];
     treat();
 }
 
+- (void)applicationDidResignActive:(NSNotification *)notification
+{
+}
+
+- (void)windowDidCloseCheck:(NSNotification *)notification
+{
+    // Gunakan dispatch_async agar pengecekan dieksekusi SETELAH window benar-benar tertutup
+    dispatch_async(dispatch_get_main_queue(), ^{
+        BOOL hasVisibleWindow = NO;
+        for (NSWindow *window in [NSApp windows]) {
+            // Cek apakah masih ada window (selain window tak kasatmata) yang tampil di layar
+            if (window.isVisible) {
+                hasVisibleWindow = YES;
+                break;
+            }
+        }
+
+        // Jika sudah tidak ada window sama sekali yang tampil, sembunyikan icon dari Dock
+        if (!hasVisibleWindow) {
+            [NSApp setActivationPolicy:NSApplicationActivationPolicyAccessory];
+        }
+    });
+}
 
 #if 0  // Temporarily disabled - will upgrade Sparkle to 2.8.1 later
 #pragma mark - SUUpdaterDelegate

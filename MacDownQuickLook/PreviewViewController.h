@@ -2,7 +2,7 @@
 //  PreviewViewController.h
 //  MacDownQuickLook
 //
-//  Quick Look preview extension for MacDown 3000 (Issue #284)
+//  Quick Look preview extension for Markdown Editor (Issue #284)
 //  Copyright (c) 2025 Tzu-ping Chung. All rights reserved.
 //
 

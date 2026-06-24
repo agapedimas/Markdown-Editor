@@ -2,7 +2,7 @@
 //  MPQuickLookRenderer.h
 //  MacDownCore
 //
-//  Quick Look renderer facade for MacDown 3000 (Issue #284)
+//  Quick Look renderer facade for Markdown Editor (Issue #284)
 //  Copyright (c) 2025 Tzu-ping Chung. All rights reserved.
 //
 

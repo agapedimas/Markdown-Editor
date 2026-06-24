@@ -8,7 +8,7 @@
 "1gz-YB-DZE.title" = "Spustit režim celé obrazovky";
 
 /* Class = "NSMenuItem"; title = "MacDown"; ObjectID = "1Xt-HY-uBw"; */
-"1Xt-HY-uBw.title" = "MacDown 3000";
+"1Xt-HY-uBw.title" = "Markdown Editor";
 
 /* Class = "NSMenuItem"; title = "Transformations"; ObjectID = "2oI-Rn-ZJC"; */
 "2oI-Rn-ZJC.title" = "Velká písmena";
@@ -26,13 +26,13 @@
 "4EN-yA-p0u.title" = "Hledat";
 
 /* Class = "NSMenuItem"; title = "Quit MacDown"; ObjectID = "4sb-4s-VLi"; */
-"4sb-4s-VLi.title" = "Ukončit MacDown 3000";
+"4sb-4s-VLi.title" = "Ukončit Markdown Editor";
 
 /* Class = "NSMenuItem"; title = "Emphasize"; ObjectID = "4UH-k2-fgy"; */
 "4UH-k2-fgy.title" = "Zvýraznění";
 
 /* Class = "NSMenuItem"; title = "About MacDown"; ObjectID = "5kV-Vb-QxS"; */
-"5kV-Vb-QxS.title" = "Co je MacDown 3000";
+"5kV-Vb-QxS.title" = "Co je Markdown Editor";
 
 /* Class = "NSMenuItem"; title = "Export"; ObjectID = "5mp-ev-1el"; */
 "5mp-ev-1el.title" = "Exporotvat";
@@ -177,7 +177,7 @@
 "Jzs-tR-jkL.title" = "Posunout vlevo";
 
 /* Class = "NSMenuItem"; title = "Contributing to MacDown"; ObjectID = "K3J-v5-s91"; */
-"K3J-v5-s91.title" = "Přispět do projektu MacDown 3000";
+"K3J-v5-s91.title" = "Přispět do projektu Markdown Editor";
 
 /* Class = "NSMenuItem"; title = "Revert to Saved"; ObjectID = "KaW-ft-85H"; */
 "KaW-ft-85H.title" = "Vrátit";
@@ -210,7 +210,7 @@
 "oas-Oc-fiZ.title" = "Otevřít poslední položku";
 
 /* Class = "NSMenuItem"; title = "Hide MacDown"; ObjectID = "Olw-nP-bQN"; */
-"Olw-nP-bQN.title" = "Skrýt MacDown 3000";
+"Olw-nP-bQN.title" = "Skrýt Markdown Editor";
 
 /* Class = "NSMenuItem"; title = "Find Previous"; ObjectID = "OwM-mh-QMV"; */
 "OwM-mh-QMV.title" = "Hledat předchozí";
@@ -277,10 +277,10 @@
 "UEZ-Bs-lqG.title" = "Velká počáteční písmena";
 
 /* Class = "NSMenuItem"; title = "MacDown Help"; ObjectID = "ugx-EN-xKu"; */
-"ugx-EN-xKu.title" = "Nápověda k MacDown 3000";
+"ugx-EN-xKu.title" = "Nápověda k Markdown Editor";
 
 /* Class = "NSMenu"; title = "MacDown"; ObjectID = "uQy-DD-JDr"; */
-"uQy-DD-JDr.title" = "MacDown 3000";
+"uQy-DD-JDr.title" = "Markdown Editor";
 
 /* Class = "NSMenuItem"; title = "Cut"; ObjectID = "uRl-iY-unG"; */
 "uRl-iY-unG.title" = "Vyjmout";

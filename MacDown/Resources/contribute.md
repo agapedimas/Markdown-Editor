@@ -1,12 +1,12 @@
-# Contributing to MacDown 3000
+# Contributing to Markdown Editor
 
-MacDown 3000 is open source and is a volunteer effort. This means that it depends on people to give some of their free time to improve it and make it even better.
+Markdown Editor is open source and is a volunteer effort. This means that it depends on people to give some of their free time to improve it and make it even better.
 
 If you are reading this, then you are probably curious or want to contribute in some way. Read on to see how you can do so.
 
 ## Getting the Source Code
 
-MacDown 3000 is hosted on GitHub:
+Markdown Editor is hosted on GitHub:
 
 https://github.com/schuyler/macdown3000
 
@@ -20,4 +20,4 @@ If you want to help translate, please open an issue on GitHub to discuss adding 
 
 ## License
 
-MacDown 3000 is released under the terms of MIT License. For more details take a look at the [README](https://github.com/schuyler/macdown3000/blob/main/README.md).
+Markdown Editor is released under the terms of MIT License. For more details take a look at the [README](https://github.com/schuyler/macdown3000/blob/main/README.md).

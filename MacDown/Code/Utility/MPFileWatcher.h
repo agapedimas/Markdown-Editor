@@ -1,6 +1,6 @@
 //
 //  MPFileWatcher.h
-//  MacDown 3000
+//  Markdown Editor
 //
 //  Reusable single-file watcher using GCD dispatch sources.
 //  Related to GitHub issue #110.

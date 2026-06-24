@@ -1,34 +1,34 @@
 editor
-foreground: cccccc
-background: 2d2d2d
-caret: cc99cc
+foreground: C8C8C8
+background: 1F1F1F
+caret: C8C8C8
 
 editor-selection
-foreground: ffffff
-background: 515151
+foreground: CCCCCC
+background: 274F78
 
 H1
-foreground: 66cccc
+foreground: 5499D2
 font-style: bold
 
 H2
-foreground: 66cccc
+foreground: 5499D2
 font-style: bold
 
 H3
-foreground: 66cccc
+foreground: 5499D2
 font-style: bold
 
 H4
-foreground: 66cccc
+foreground: 5499D2
 font-style: bold
 
 H5
-foreground: 66cccc
+foreground: 5499D2
 font-style: bold
 
 H6
-foreground: 66cccc
+foreground: 5499D2
 font-style: bold
 
 EMPH
@@ -36,14 +36,14 @@ foreground: ffcc66
 font-style: italic
 
 STRONG
-foreground: f99157
+foreground: 5499D2
 font-style: bold
 
 HRULE
 foreground: 999999
 
 LIST_BULLET
-foreground: 6699cc
+foreground: 6796E6
 
 LIST_ENUMERATOR
 foreground: 6699cc
@@ -68,12 +68,6 @@ foreground: 999999
 
 VERBATIM
 foreground: 999999
-
-HTML
-foreground: cc99cc
-
-HTMLBLOCK
-foreground: cc99cc
 
 HTML_ENTITY
 foreground: cc99cc

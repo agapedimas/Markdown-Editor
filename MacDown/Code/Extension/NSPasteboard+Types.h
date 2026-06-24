@@ -1,6 +1,6 @@
 //
 //  NSPasteboard+Types.h
-//  MacDown 3000
+//  Markdown Editor
 //
 //  Created by Tzu-ping Chung on 01/3.
 //  Copyright © 2016 Tzu-ping Chung . All rights reserved.

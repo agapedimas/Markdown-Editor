@@ -5,7 +5,7 @@ platform :osx, MIN_DEPLOYMENT_TARGET
 source 'https://github.com/MacDownApp/cocoapods-specs.git'  # Patched libraries.
 source 'https://cdn.cocoapods.org/'
 
-project 'MacDown 3000.xcodeproj'
+project 'Markdown Editor.xcodeproj'
 
 inhibit_all_warnings!
 

@@ -1,6 +1,6 @@
 //
 //  MPURLSecurityPolicyTests.m
-//  MacDown 3000
+//  Markdown Editor
 //
 //  Tests for MPURLSecurityPolicy — covers CVE-2019-12138 (directory traversal)
 //  and CVE-2019-12173 (RCE via app bundle links).

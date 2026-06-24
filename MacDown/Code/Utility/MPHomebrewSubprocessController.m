@@ -1,6 +1,6 @@
 //
 //  MPHomebrewSubprocessController.m
-//  MacDown 3000
+//  Markdown Editor
 //
 //  Created by Tzu-ping Chung on 18/2.
 //  Copyright © 2017 Tzu-ping Chung . All rights reserved.

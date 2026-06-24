@@ -15,18 +15,15 @@
         <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
         <menu title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
             <items>
-                <menuItem title="MacDown 3000" id="1Xt-HY-uBw">
+                <menuItem title="Markdown Editor" id="1Xt-HY-uBw">
                     <modifierMask key="keyEquivalentModifierMask"/>
-                    <menu key="submenu" title="MacDown 3000" systemMenu="apple" id="uQy-DD-JDr">
+                    <menu key="submenu" title="Markdown Editor" systemMenu="apple" id="uQy-DD-JDr">
                         <items>
-                            <menuItem title="About MacDown 3000" id="5kV-Vb-QxS">
+                            <menuItem title="About Markdown Editor" id="5kV-Vb-QxS">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="orderFrontStandardAboutPanel:" target="-1" id="Exp-CZ-Vem"/>
                                 </connections>
-                            </menuItem>
-                            <menuItem title="Check for Updates… (unavailable)" enabled="NO" id="8xL-1V-VPX">
-                                <modifierMask key="keyEquivalentModifierMask"/>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="VOq-y0-SEH"/>
                             <menuItem title="Preferences…" keyEquivalent="," id="BOF-NM-1cW">
@@ -40,7 +37,7 @@
                                 <menu key="submenu" title="Services" systemMenu="services" id="hz9-B4-Xy5"/>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="4je-JR-u6R"/>
-                            <menuItem title="Hide MacDown 3000" keyEquivalent="h" id="Olw-nP-bQN">
+                            <menuItem title="Hide Markdown Editor" keyEquivalent="h" id="Olw-nP-bQN">
                                 <connections>
                                     <action selector="hide:" target="-1" id="PnN-Uc-m68"/>
                                 </connections>
@@ -58,7 +55,7 @@
                                 </connections>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="kCx-OE-vgT"/>
-                            <menuItem title="Quit MacDown 3000" keyEquivalent="q" id="4sb-4s-VLi">
+                            <menuItem title="Quit Markdown Editor" keyEquivalent="q" id="4sb-4s-VLi">
                                 <connections>
                                     <action selector="terminate:" target="-1" id="Te7-pn-YzF"/>
                                 </connections>
@@ -607,20 +604,20 @@ DQ
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <menu key="submenu" title="Help" systemMenu="help" id="F2S-fz-NVQ">
                         <items>
-                            <menuItem title="MacDown 3000 Help" id="ugx-EN-xKu">
+                            <menuItem title="Markdown Editor Help" id="ugx-EN-xKu">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="showHelp:" target="eq0-c4-vgQ" id="8IP-1m-7eG"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Contributing to MacDown 3000" id="K3J-v5-s91">
+                            <menuItem title="Contributing to Markdown Editor" id="K3J-v5-s91">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="showContributing:" target="eq0-c4-vgQ" id="kry-sc-poi"/>
                                 </connections>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="j7r-4K-Xm1"/>
-                            <menuItem title="MacDown 3000 on GitHub" id="pLw-9G-hNv">
+                            <menuItem title="Markdown Editor on GitHub" id="pLw-9G-hNv">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="openGitHub:" target="eq0-c4-vgQ" id="nQx-5B-dR3"/>

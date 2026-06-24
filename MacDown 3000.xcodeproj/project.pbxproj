@@ -110,19 +110,19 @@
 		D29776CC6E7EB5B4AA2E0537 /* MPFileWatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = A81247E840EB5C07669FF165 /* MPFileWatcher.m */; };
 		D3877A6637DE48017448C8DB /* MPRendererTestHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2FC4B9389A012264DC6214 /* MPRendererTestHelpers.m */; };
 		E087CFBB2125A4D2B37C132F /* MPHTMLResourceURLsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8552820CEE8D00E83AEE3897 /* MPHTMLResourceURLsTests.m */; };
-		ISSUE341IMGRENDERBUILDFILE /* MPImageRenderingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ISSUE341IMGRENDERFILEREF /* MPImageRenderingTests.m */; };
 		EA2D3FB9196BC4F7CA0235DC /* MPFileWatcherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 779606A8E0525000200B4EC5 /* MPFileWatcherTests.m */; };
 		EBFE3157737058F5A63699C8 /* libPods-MacDownTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C949FDE45493AE77DAD9BF4 /* libPods-MacDownTests.a */; };
 		ISSUE16RNDRDEFRBUILDFILE /* MPRenderDeferralTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ISSUE16RNDRDEFRFILEREF /* MPRenderDeferralTests.m */; };
 		ISSUE285SMARTQTBUILDFILE /* MPSmartQuoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ISSUE285SMARTQTFILEREF /* MPSmartQuoteTests.m */; };
 		ISSUE294WRDCNTBUILDFILE /* MPWordCountUpdateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ISSUE294WRDCNTFILEREF /* MPWordCountUpdateTests.m */; };
-		ISSUE452SELCNTBUILDFILE /* MPSelectionCountTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ISSUE452SELCNTFILEREF /* MPSelectionCountTests.m */; };
 		ISSUE313TOOLBARBUILDFILE /* MPToolbarControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ISSUE313TOOLBARFILEREF /* MPToolbarControllerTests.m */; };
 		ISSUE318STYLERELBUILDFILE /* MPDocumentStyleUpdateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ISSUE318STYLERELFILEREF /* MPDocumentStyleUpdateTests.m */; };
 		ISSUE325MJSCRLBUILDFILE /* MPMathJaxScrollTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ISSUE325MJSCRLFILEREF /* MPMathJaxScrollTests.m */; };
 		ISSUE331MRMDRNDRBUILDFILE /* MPMermaidRenderingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ISSUE331MRMDRNDRFILEREF /* MPMermaidRenderingTests.m */; };
 		ISSUE332GVIZRNDRBUILDFILE /* MPGraphvizRenderingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ISSUE332GVIZRNDRFILEREF /* MPGraphvizRenderingTests.m */; };
+		ISSUE341IMGRENDERBUILDFILE /* MPImageRenderingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ISSUE341IMGRENDERFILEREF /* MPImageRenderingTests.m */; };
 		ISSUE362PREFRESIZBUILDF /* MPPreferencesViewControllerResizabilityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ISSUE362PREFRESIZFILEREF /* MPPreferencesViewControllerResizabilityTests.m */; };
+		ISSUE452SELCNTBUILDFILE /* MPSelectionCountTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ISSUE452SELCNTFILEREF /* MPSelectionCountTests.m */; };
 		PHASE1BBLD0001NOTIFTEST /* MPNotificationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = PHASE1B00000001NOTIFTEST /* MPNotificationTests.m */; };
 		PHASE1BBLD0002LIFECYCLT /* MPDocumentLifecycleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = PHASE1B00000002LIFECYCLT /* MPDocumentLifecycleTests.m */; };
 		PHASE1BBLD0003EDGECASET /* MPRendererEdgeCaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = PHASE1B00000003EDGECASET /* MPRendererEdgeCaseTests.m */; };
@@ -425,7 +425,7 @@
 		1F9A14EE194EEEDD00D1C6A9 /* Styles */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Styles; path = Resources/Styles; sourceTree = "<group>"; };
 		1F9A14F3194EF6A600D1C6A9 /* Themes */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Themes; path = Resources/Themes; sourceTree = "<group>"; };
 		1FA6CDB81952D2CD008D5CA0 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = dsa_pub.pem; path = Resources/dsa_pub.pem; sourceTree = "<group>"; };
-		1FA6DE211941CC9E000409FB /* MacDown 3000.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MacDown 3000.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FA6DE211941CC9E000409FB /* Markdown Editor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Markdown Editor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FA6DE241941CC9E000409FB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		1FA6DE271941CC9E000409FB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		1FA6DE281941CC9E000409FB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -533,7 +533,6 @@
 		852D52391E260A6400BA7162 /* MPTerminalPreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPTerminalPreferencesViewController.h; sourceTree = "<group>"; };
 		852D523A1E260A6400BA7162 /* MPTerminalPreferencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPTerminalPreferencesViewController.m; sourceTree = "<group>"; };
 		8552820CEE8D00E83AEE3897 /* MPHTMLResourceURLsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPHTMLResourceURLsTests.m; sourceTree = "<group>"; };
-		ISSUE341IMGRENDERFILEREF /* MPImageRenderingTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPImageRenderingTests.m; sourceTree = "<group>"; };
 		8579778C7BF70F28920CE089 /* MPResourceWatcherSetTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPResourceWatcherSetTests.m; sourceTree = "<group>"; };
 		85E24E5A1E5019C00056E696 /* MPToolbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPToolbarController.h; path = Code/Application/MPToolbarController.h; sourceTree = "<group>"; };
 		85E24E5B1E5019C00056E696 /* MPToolbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPToolbarController.m; path = Code/Application/MPToolbarController.m; sourceTree = "<group>"; };
@@ -599,13 +598,14 @@
 		ISSUE16RNDRDEFRFILEREF /* MPRenderDeferralTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPRenderDeferralTests.m; sourceTree = "<group>"; };
 		ISSUE285SMARTQTFILEREF /* MPSmartQuoteTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPSmartQuoteTests.m; sourceTree = "<group>"; };
 		ISSUE294WRDCNTFILEREF /* MPWordCountUpdateTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPWordCountUpdateTests.m; sourceTree = "<group>"; };
-		ISSUE452SELCNTFILEREF /* MPSelectionCountTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPSelectionCountTests.m; sourceTree = "<group>"; };
 		ISSUE313TOOLBARFILEREF /* MPToolbarControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPToolbarControllerTests.m; sourceTree = "<group>"; };
 		ISSUE318STYLERELFILEREF /* MPDocumentStyleUpdateTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPDocumentStyleUpdateTests.m; sourceTree = "<group>"; };
 		ISSUE325MJSCRLFILEREF /* MPMathJaxScrollTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPMathJaxScrollTests.m; sourceTree = "<group>"; };
 		ISSUE331MRMDRNDRFILEREF /* MPMermaidRenderingTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPMermaidRenderingTests.m; sourceTree = "<group>"; };
 		ISSUE332GVIZRNDRFILEREF /* MPGraphvizRenderingTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPGraphvizRenderingTests.m; sourceTree = "<group>"; };
+		ISSUE341IMGRENDERFILEREF /* MPImageRenderingTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPImageRenderingTests.m; sourceTree = "<group>"; };
 		ISSUE362PREFRESIZFILEREF /* MPPreferencesViewControllerResizabilityTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPPreferencesViewControllerResizabilityTests.m; sourceTree = "<group>"; };
+		ISSUE452SELCNTFILEREF /* MPSelectionCountTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPSelectionCountTests.m; sourceTree = "<group>"; };
 		PHASE1B00000001NOTIFTEST /* MPNotificationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPNotificationTests.m; sourceTree = "<group>"; };
 		PHASE1B00000002LIFECYCLT /* MPDocumentLifecycleTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPDocumentLifecycleTests.m; sourceTree = "<group>"; };
 		PHASE1B00000003EDGECASET /* MPRendererEdgeCaseTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPRendererEdgeCaseTests.m; sourceTree = "<group>"; };
@@ -874,7 +874,7 @@
 		1FA6DE221941CC9E000409FB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1FA6DE211941CC9E000409FB /* MacDown 3000.app */,
+				1FA6DE211941CC9E000409FB /* Markdown Editor.app */,
 				1FA6DE451941CC9E000409FB /* MacDownTests.xctest */,
 				905EF1A7196164CA00FC3CE9 /* macdown */,
 			);
@@ -1096,7 +1096,7 @@
 			);
 			name = MacDown;
 			productName = MarkPad;
-			productReference = 1FA6DE211941CC9E000409FB /* MacDown 3000.app */;
+			productReference = 1FA6DE211941CC9E000409FB /* Markdown Editor.app */;
 			productType = "com.apple.product-type.application";
 		};
 		1FA6DE441941CC9E000409FB /* MacDownTests */ = {
@@ -1143,8 +1143,9 @@
 		1FA6DE191941CC9E000409FB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				CLASSPREFIX = MP;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 2630;
 				ORGANIZATIONNAME = "Tzu-ping Chung ";
 				TargetAttributes = {
 					1FA6DE441941CC9E000409FB = {
@@ -1862,6 +1863,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -1871,22 +1873,27 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -1906,6 +1913,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 			};
 			name = Debug;
 		};
@@ -1914,6 +1922,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -1923,23 +1932,28 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -1951,6 +1965,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 			};
 			name = Release;
 		};
@@ -1959,18 +1974,28 @@
 			baseConfigurationReference = 1A198D1BA59D710201DD3BC8 /* Pods-MacDown.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				AUTOMATION_APPLE_EVENTS = YES;
 				CODE_SIGN_ENTITLEMENTS = MacDown/MacDown.entitlements;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 0;
-				EXECUTABLE_NAME = "MacDown 3000";
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				EXECUTABLE_NAME = "Markdown Editor";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MacDown/Code/MacDown-Prefix.pch";
 				INFOPLIST_FILE = "MacDown/MacDown-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Markdown Editor";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = "0.0.0-dev";
-				PRODUCT_BUNDLE_IDENTIFIER = "app.macdown.macdown3000-debug";
-				PRODUCT_NAME = "MacDown 3000";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.agapedimas.markdowneditor-debug";
+				PRODUCT_NAME = "Markdown Editor";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = app;
 			};
@@ -1981,18 +2006,28 @@
 			baseConfigurationReference = 39EFCAE04F60154F0C8C5469 /* Pods-MacDown.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				AUTOMATION_APPLE_EVENTS = YES;
 				CODE_SIGN_ENTITLEMENTS = MacDown/MacDown.entitlements;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 0;
-				EXECUTABLE_NAME = "MacDown 3000";
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				EXECUTABLE_NAME = "Markdown Editor";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MacDown/Code/MacDown-Prefix.pch";
 				INFOPLIST_FILE = "MacDown/MacDown-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Markdown Editor";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = "0.0.0-dev";
-				PRODUCT_BUNDLE_IDENTIFIER = app.macdown.macdown3000;
-				PRODUCT_NAME = "MacDown 3000";
+				PRODUCT_BUNDLE_IDENTIFIER = com.agapedimas.markdowneditor;
+				PRODUCT_NAME = "Markdown Editor";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = app;
 			};
@@ -2005,6 +2040,7 @@
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MacDown 3000.app/Contents/MacOS/MacDown 3000";
 				CLANG_ENABLE_MODULES = NO;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
@@ -2027,7 +2063,7 @@
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/MacDown-ggdtxvuybojeqbhjydkhilziizrv/Build/Products/Debug",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = app.macdown.macdown3000.tests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.agapedimas.markdowneditor.tests;
 				PRODUCT_NAME = MacDownTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -2041,6 +2077,7 @@
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MacDown 3000.app/Contents/MacOS/MacDown 3000";
 				CLANG_ENABLE_MODULES = NO;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
@@ -2062,7 +2099,7 @@
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/MacDown-ggdtxvuybojeqbhjydkhilziizrv/Build/Products/Debug",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = app.macdown.macdown3000.tests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.agapedimas.markdowneditor.tests;
 				PRODUCT_NAME = MacDownTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -2073,6 +2110,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4DBAA63927A60EB2150642B3 /* Pods-macdown-cmd.debug.xcconfig */;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -2088,6 +2126,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7A8EA75FA95818275755F0B6 /* Pods-macdown-cmd.release.xcconfig */;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "";
 				PRODUCT_NAME = macdown;

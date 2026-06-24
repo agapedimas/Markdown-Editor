@@ -1,6 +1,6 @@
 //
 //  MPMarkdownRenderingTests.m
-//  MacDown 3000
+//  Markdown Editor
 //
 //  Created for Issue #58 (expanded from original Issue #89)
 //  Copyright (c) 2025 Tzu-ping Chung. All rights reserved.

@@ -1,6 +1,6 @@
 //
 //  MPSmartQuoteTests.m
-//  MacDown 3000
+//  Markdown Editor
 //
 //  Tests for Issue #285: Smart quote substitution behavior.
 //  Verifies that when smart quotes are enabled, custom code defers
